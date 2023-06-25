@@ -5,34 +5,32 @@ import '../containers/navbar/navbar.css'
 import './selenium.css'
 import Cards from '../components/cards/Cards';
 import { Footer } from '../containers';
+import ScrollToTop from './ScrollToTop';
 
 const Menu = () => (
     <>
-      <p><Link to="/#home">Home</Link></p>
-      <p><Link to="/#about">About Me</Link></p>
-      <p><Link to="/#skills">Skills</Link></p>
-      <p><Link to="/#certificates">Certicates</Link></p>
-      <p><Link to="/#projects">Projects</Link></p>
-      <p><a href='cv.pdf' target='_blank'>CV</a></p>
+      <p><Link to="/#home">Back to Home</Link></p>
     </>
 )
 
 const Selenium = () => {
+
     const [toggleMenu, setToggleMenu] = useState(false);
 
     return (
         <>
+            <ScrollToTop />
             <div className='navbar-container' id='navbar'>
                 <div className='navbar-links'>
                 <div className='navbar-link-container'>
-                    <h3>QA Engineer Portfolio</h3>
+                <h3><Link to="/#home" style={{ color: "var(--header-color)", textDecoration: "none;" }}>Fullstack Engineer Portfolio</Link></h3>
                     <div className='navlinks'>
                     <Menu />
                     </div>
                 </div>
                 </div>
                 <div className='navbar-toggle'>
-                <h3>QA Engineer Portfolio</h3>
+                <h3><Link to="/#home" style={{ color: "var(--header-color)", textDecoration: "none;" }}>Fullstack Engineer Portfolio</Link></h3>
                 {toggleMenu
                     ? <RiCloseLine size={27} onClick={() => setToggleMenu(false)} />
                     : <RiMenu3Line size={27} onClick={() => setToggleMenu(true)} />
@@ -88,4 +86,4 @@ const Selenium = () => {
     )
 }
 
-export default Selenium
+export default Selenium;

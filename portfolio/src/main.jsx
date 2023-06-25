@@ -5,6 +5,7 @@ import { createRoot } from "react-dom/client";
 import {
   createBrowserRouter,
   RouterProvider,
+  BrowserRouter,
   Route,
   Link,
 } from "react-router-dom";
@@ -38,5 +39,5 @@ const router = createBrowserRouter([
 ]);
 
 createRoot(document.getElementById("root")).render(
-  <RouterProvider router={router} />
+    <RouterProvider router={router} />
 );

@@ -21,14 +21,14 @@ const Navbar = () => {
     <div className='navbar-container' id='navbar'>
       <div className='navbar-links'>
         <div className='navbar-link-container'>
-          <h3>Fullstack Engineer Portfolio</h3>
+        <h3><Link to="/#home" style={{ color: "var(--header-color)", textDecoration: "none;" }}>Fullstack Engineer Portfolio</Link></h3>
           <div className='navlinks'>
             <Menu />
           </div>
         </div>
       </div>
       <div className='navbar-toggle'>
-        <h3>Fullstack Engineer Portfolio</h3>
+      <h3><Link to="/#home" style={{ color: "var(--header-color)", textDecoration: "none;" }}>Fullstack Engineer Portfolio</Link></h3>
         {toggleMenu
           ? <RiCloseLine size={27} onClick={() => setToggleMenu(false)} />
           : <RiMenu3Line size={27} onClick={() => setToggleMenu(true)} />
