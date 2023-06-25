@@ -1,0 +1,5 @@
+export { default as Buttons } from './buttons/Buttons'
+export { default as Navlinks } from './navlinks/Navlinks'
+export { default as Cards } from './cards/Cards'
+export { default as Techstack } from './techstack/Techstack'
+export { default as FooterIcons } from './footer-icons/FooterIcons'

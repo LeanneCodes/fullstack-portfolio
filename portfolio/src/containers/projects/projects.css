@@ -1,0 +1,18 @@
+.projects-container {
+    min-height: 50vh;
+}
+
+.projects {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3rem;
+    justify-content: space-around;
+}
+
+.projects-card {
+    background-color: var(--text-highlight);
+    margin-top: 1rem;
+    width: 30%;
+    padding: 14px;
+    margin: 10px;
+}

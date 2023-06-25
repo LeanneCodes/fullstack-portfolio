@@ -1,0 +1,43 @@
+.project-image img {
+    border-radius: 5px;
+}
+
+.project-content {
+    height: 250px;
+    text-align: center;
+}
+
+.project-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.project-info h4 {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    color: white;
+}
+
+.project-info h5 {
+    font-size: 1rem;
+    margin-top: 1rem;
+    color: white;
+}
+
+.project-info p {
+    margin-top: 1rem;
+}
+
+.project-info button {
+    background-color: transparent;
+    border: none;
+    font-size: 1rem;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.project-card {
+    text-align: center;
+}

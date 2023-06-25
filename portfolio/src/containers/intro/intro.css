@@ -1,0 +1,28 @@
+.intro-container {
+    background-color: var(--bg);
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.intro-links {
+    display: flex;
+    margin-top: 2rem;
+}
+
+.intro-links button {
+    background-color: transparent;
+    border: 4px solid var(--text-highlight);
+    padding: 10px;
+    color: var(--text-highlight);
+    font-size: 1rem;
+}
+
+.intro-links button:hover {
+    scale: 1.2;
+    transition: all 0.3s ease-in;
+}

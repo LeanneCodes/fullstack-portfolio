@@ -1,0 +1,8 @@
+.project-page {
+    margin-top: 180px;
+}
+.project-review {
+    background-color: var(--text-color);
+    min-height: 80vh;
+    margin: 2rem;
+}

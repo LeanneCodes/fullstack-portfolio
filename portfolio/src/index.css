@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Slab:wght@400;500;600;700;800;900&display=swap');
+
+:root {
+  --bg: #414141;
+  --bg-2: #313131;
+  --text-color: #faf8fb;
+  --header-color: #cfcdcd;
+  --text-highlight: #EC625F;
+  --header-font: 'Roboto Slab', serif;
+  --body-text: 'Montserrat', sans-serif;
+}

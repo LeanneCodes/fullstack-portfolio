@@ -1,0 +1,29 @@
+.about-container {
+    min-height: 50vh;
+    background-color: var(--bg-2);
+}
+
+.about-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.profile-pic {
+    width: 63%;
+}
+
+.img-style {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.text-style {
+    padding: 2rem 2rem 0 2rem;
+}
+
+.text-pos {
+    width: 100%;
+}

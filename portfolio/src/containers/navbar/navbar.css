@@ -1,0 +1,132 @@
+#navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    background-color: white;
+    border-bottom: 1px solid rgb(226, 223, 223);
+}
+
+.navlinks {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-links {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navbar-link-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navbar-link-container h3 {
+    margin-left: 3rem;
+}
+
+.navbar-toggle {
+    margin-right: 3rem;
+    display: none;
+    position: relative;
+    width: 90%;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.navbar-toggle svg {
+    color: var(--text-highlight);
+    margin-top: 9px;
+}
+
+.navbar-link-container p {
+    padding: 0 2rem;
+    font-weight: 500;
+}
+
+.navbar-link-container p:hover {
+    scale: 1.2;
+}
+
+.navbar-menu-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    text-align: end;
+    background: white;
+    padding: 2rem;
+    position: absolute;
+    top: 62px;
+    right: 0;
+    margin-top: 1rem;
+    min-width: 180px;
+    border-radius: 5px;
+    box-shadow: 0 0 5 rgba(0, 0, 0, 0.2);
+    color: #fff !important;
+}
+
+.navbar-menu-container p:hover {
+    text-decoration: underline;
+}
+
+/* Page content */
+.content {
+    padding: 16px;
+}
+  
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+  
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+    padding-top: 60px;
+}
+
+@media screen and (max-width: 1050px) {
+    .navbar-link-container {
+        display: none;
+    }
+
+    .navbar-toggle {
+        display: flex;
+    }
+
+    .navbar-toggle:hover {
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .navbar-container {
+        padding: 0rem;
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .navbar-container {
+        padding: 0rem;
+        margin-bottom: 1rem;
+    }
+
+    .navbar-menu-container {
+        top: 20px;
+    }
+}
