@@ -16,7 +16,7 @@
 
 .intro-links button {
     background-color: transparent;
-    border: 4px solid var(--text-highlight);
+    border: none;
     padding: 10px;
     color: var(--text-highlight);
     font-size: 1rem;

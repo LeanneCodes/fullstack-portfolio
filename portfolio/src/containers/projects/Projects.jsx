@@ -2,6 +2,7 @@ import React from 'react'
 import './projects.css'
 import Cards from '../../components/cards/Cards'
 import { Link } from "react-router-dom";
+import noImage from "../../assets/no-image.jpeg"
 
 const Projects = () => {
   return (
@@ -10,39 +11,39 @@ const Projects = () => {
       <div className='projects'>
         <div className='projects-card'>
           <Cards
-            img='#'
+            img={ noImage }
             name="Project name 1"
             tech="tech used"
             summary="description"
           />
-          <Link to="/selenium" style={{display: 'flex', justifyContent: 'center', textAlign: 'center'}}>View Selenium Project</Link>
+          <Link to="/selenium" style={{color: 'white', display: 'flex', justifyContent: 'center', textAlign: 'center'}}>View Selenium Project</Link>
         </div>
         <div className='projects-card'>
           <Cards
-            img='#'
+            img={ noImage }
             name="Project name 2"
             tech="tech used"
             summary="description"
           />
-          <Link to="/jira" style={{display: 'flex', justifyContent: 'center', textAlign: 'center'}}>View Jira Project</Link>
+          <Link to="/jira" style={{color: 'white', display: 'flex', justifyContent: 'center', textAlign: 'center'}}>View Jira Project</Link>
         </div>
         <div className='projects-card'>
           <Cards
-            img='#'
+            img={ noImage }
             name="Project name 3"
             tech="tech used"
             summary="description"
           />
-          <Link to="/postman" style={{display: 'flex', justifyContent: 'center', textAlign: 'center'}}>View Postman Project</Link>
+          <Link to="/postman" style={{color: 'white', display: 'flex', justifyContent: 'center', textAlign: 'center'}}>View Postman Project</Link>
         </div>
         <div className='projects-card'>
           <Cards
-            img='#'
+            img={ noImage }
             name="Project name 4"
             tech="tech used"
             summary="description"
           />
-          <Link to="/appium" style={{display: 'flex', justifyContent: 'center', textAlign: 'center'}}>View Appium Project</Link>
+          <Link to="/appium" style={{color: 'white', display: 'flex', justifyContent: 'center', textAlign: 'center'}}>View Appium Project</Link>
         </div>
       </div>
     </div>

@@ -1,7 +1,6 @@
 import React from 'react'
 import './intro.css'
-import { SiGithub } from "react-icons/si";
-import { SiLinkedin } from "react-icons/si";
+import { RxOpenInNewWindow } from "react-icons/rx";
 
 const Intro = () => {
   return (
@@ -9,7 +8,7 @@ const Intro = () => {
       <h1 style={{color: 'white'}}>Leanne Goldsmith</h1>
       <p style={{color: 'white'}}>I am a Junior Fullstack Engineer with experience in QA Testing</p>
       <div className='intro-links'>
-        <button type='button'><a href='cv.pdf' target='_blank'>Preview CV</a></button>
+        <button type='button'><a href='cv.pdf' target='_blank'>Preview CV {<RxOpenInNewWindow />}</a></button>
       </div>
     </div>
   )

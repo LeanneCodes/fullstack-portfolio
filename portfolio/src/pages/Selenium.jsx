@@ -6,6 +6,7 @@ import './selenium.css'
 import Cards from '../components/cards/Cards';
 import { Footer } from '../containers';
 import ScrollToTop from './ScrollToTop';
+import noImage from '../assets/no-image.jpeg';
 
 const Menu = () => (
     <>
@@ -53,7 +54,7 @@ const Selenium = () => {
                 <div className='projects' style={{marginTop: 0, marginBottom: "2rem"}}>
                     <div className='projects-card'>
                     <Cards
-                        img='#'
+                        img={ noImage }
                         name="Project name 2"
                         tech="tech used"
                         summary="description"
@@ -62,7 +63,7 @@ const Selenium = () => {
                     </div>
                     <div className='projects-card'>
                     <Cards
-                        img='#'
+                        img={ noImage }
                         name="Project name 3"
                         tech="tech used"
                         summary="description"
@@ -71,7 +72,7 @@ const Selenium = () => {
                     </div>
                     <div className='projects-card'>
                     <Cards
-                        img='#'
+                        img={ noImage }
                         name="Project name 4"
                         tech="tech used"
                         summary="description"
