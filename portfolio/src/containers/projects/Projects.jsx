@@ -15,7 +15,7 @@ const Projects = () => {
             tech="tech used"
             summary="description"
           />
-          <Link to="/selenium" style={{color: 'white', display: 'flex', justifyContent: 'center', textAlign: 'center'}}>View Selenium Project</Link>
+          <Link to="/selenium" style={{display: 'flex', justifyContent: 'center', textAlign: 'center'}}>View Selenium Project</Link>
         </div>
         <div className='projects-card'>
           <Cards
@@ -24,7 +24,7 @@ const Projects = () => {
             tech="tech used"
             summary="description"
           />
-          <Link to="/jira" style={{color: 'white', display: 'flex', justifyContent: 'center', textAlign: 'center'}}>View Jira Project</Link>
+          <Link to="/jira" style={{display: 'flex', justifyContent: 'center', textAlign: 'center'}}>View Jira Project</Link>
         </div>
         <div className='projects-card'>
           <Cards
@@ -33,7 +33,7 @@ const Projects = () => {
             tech="tech used"
             summary="description"
           />
-          <Link to="/postman" style={{color: 'white', display: 'flex', justifyContent: 'center', textAlign: 'center'}}>View Postman Project</Link>
+          <Link to="/postman" style={{display: 'flex', justifyContent: 'center', textAlign: 'center'}}>View Postman Project</Link>
         </div>
         <div className='projects-card'>
           <Cards
@@ -42,7 +42,7 @@ const Projects = () => {
             tech="tech used"
             summary="description"
           />
-          <Link to="/appium" style={{color: 'white', display: 'flex', justifyContent: 'center', textAlign: 'center'}}>View Appium Project</Link>
+          <Link to="/appium" style={{display: 'flex', justifyContent: 'center', textAlign: 'center'}}>View Appium Project</Link>
         </div>
       </div>
     </div>
