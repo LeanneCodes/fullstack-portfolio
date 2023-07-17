@@ -131,3 +131,26 @@
         top: 20px;
     }
 }
+
+@media screen and (max-width: 425px) {
+    .navbar-toggle {
+        margin-right: 0;
+        width: 100%;
+    }
+
+    .navbar-toggle svg {
+        margin-top: 0;
+        margin-right: 1rem;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    h3 {
+        font-size: 1.2rem !important;
+        margin-left: 10px;
+    }
+
+    .navbar-toggle svg {
+        margin-right: 0.5rem;
+    }
+}

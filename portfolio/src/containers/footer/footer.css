@@ -16,3 +16,41 @@
 .footer h4 {
     margin-bottom: 1rem;
 }
+
+@media screen and (max-width: 1440px) {
+    .ext-link {
+        width: 8%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .ext-link {
+        width: 11%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .ext-link {
+        width: 15%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .ext-link {
+        width: 31%;
+    }
+
+    .footer-container {
+        padding: 2.8rem;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .ext-link {
+        width: 48%;
+    }
+
+    .footer-container {
+        padding: 3rem;
+    }
+}

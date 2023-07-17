@@ -16,3 +16,36 @@
     padding: 14px;
     margin: 10px;
 }
+
+@media screen and (max-width: 768px) {
+    .projects {
+        flex-wrap: wrap;
+        margin-top: 1rem;
+    }
+
+    .projects-card {
+        width: 48%;
+        margin: 10px 10px 0 0;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .projects-card {
+        width: 93%;
+        margin: 10px 0;
+    }
+
+    .projects {
+        margin-top: 2rem;
+    }
+
+    .container {
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .projects {
+        margin-top: 1rem;
+    }
+}

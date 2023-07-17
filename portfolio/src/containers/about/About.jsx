@@ -60,18 +60,6 @@ const About = () => {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2021 - 2022"
-            iconStyle={{ background: '#EC625F', color: '#fff' }}
-            // icon={<WorkIcon />}
-          >
-            <h3 className="vertical-timeline-element-title">Code Institute Fullstack Bootcamp</h3>
-            <h4 className="vertical-timeline-element-subtitle">Merit Grade</h4>
-            <p style={{color: "#313131", textAlign: "center"}}>
-              I enrolled in a comprehensive year-long bootcamp and I undertook various projects that showcased my proficiency, including creating a quiz application, developing single page applications, and constructing fully functional eCommerce websites. Demonstrating my dedication and skill, these projects culminated in the achievement of a Merit grade.
-            </p>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
             date="2021 - Present"
             iconStyle={{ background: '#EC625F', color: '#fff' }}
             // icon={<WorkIcon />}

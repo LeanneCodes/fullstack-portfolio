@@ -26,3 +26,16 @@
     scale: 1.2;
     transition: all 0.3s ease-in;
 }
+
+@media screen and (max-width: 768px) {
+    .intro-container {
+        padding: 0 50px;
+    }
+}
+
+
+@media screen and (max-width: 320px) {
+    .intro-container {
+        padding: 0 20px;
+    }
+}
