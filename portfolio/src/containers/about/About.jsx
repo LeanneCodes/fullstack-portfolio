@@ -14,63 +14,72 @@ const About = () => {
         <div className='text-pos'>
           <h1>About me</h1>
           <p className='text-style'>
-          I'm transitioning my career from addressable advertising to QA engineering due to my newfound passion for ensuring software quality and user satisfaction.<br/><br/>
-          My experience in addressable advertising has shown me the vital role of quality assurance in delivering seamless user experiences. The analytical and problem-solving nature of QA engineering attracts me, allowing me to utilize my attention to detail, critical thinking, and technical skills to identify and prevent issues.<br/><br/>
-          I'm enthusiastic about applying my knowledge and dedication to create reliable software tests, where the final product surpass user expectations and provides a positive experience.<br/><br/>
-          My current role involves coding display banners for renowned clients, equipping me with transferable skills for my next career move.
+            I pursued a Marketing with Advertising degree at university, inspired by my love for the TV show "Mad Men" and a strong desire to immerse myself in the industry. Following my studies, I entered the Advertising field, where I successfully executed multi-million pound campaigns for renowned brands such as Samsung, L'Oréal, and Compare the Market.
+            <br />
+            <br />
+            During my time in advertising, I specialised in Addressable, focusing on building display ad banners for esteemed clients like Eurostar and Audible. My role was around transforming creative agency designs into functional live ads. I integrated Figma and Photoshop files into VS Code, where I wrote code and leveraged tools like Greensock, to merge all elements together. This process allowed me to bring captivating ad experiences to life while ensuring optimal functionality and visual appeal.
+            <br />
+            <br />
+            Now, I am seeking opportunities as a full-time fullstack engineer, aspiring to collaborate with open-minded professionals from whom I can learn and grow.
+            <br/>
+            <br />
+            I am excited to embark on this next chapter, where I can utilise my skills and contribute to innovative projects while continuously expanding my knowledge in the ever-evolving world of technology.
           </p>
         </div>
       </div>
       <br />
       <br />
       <div>
+        <h3>My Career Path and Goals</h3>
+        <br />
+        <br />
         <VerticalTimeline>
         <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2010 - 2011"
+            date="2016 - 2018"
             iconStyle={{ background: '#EC625F', color: '#fff' }}
             // icon={<WorkIcon />}
           >
-            <h3 className="vertical-timeline-element-title">Art Director</h3>
-            <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
-            <p>
-              1
+            <h3 className="vertical-timeline-element-title">Advertising Planner</h3>
+            <h4 className="vertical-timeline-element-subtitle">Clients: Samsung UK</h4>
+            <p style={{color: "#313131", textAlign: "center"}}>
+              Strategised and helped execute media campaigns for Samsung UK. This involved working with multiple stakeholders across different industries to ensure flawless campaigns.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2010 - 2011"
+            date="2018 - 2021"
             iconStyle={{ background: '#EC625F', color: '#fff' }}
             // icon={<WorkIcon />}
           >
-            <h3 className="vertical-timeline-element-title">Art Director</h3>
-            <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
-            <p>
-              2
+            <h3 className="vertical-timeline-element-title">Advertising Paid Social Manager</h3>
+            <h4 className="vertical-timeline-element-subtitle">Clients: L'Oréal Group, Eurostar, Compare the Market</h4>
+            <p style={{color: "#313131", textAlign: "center"}}>
+              Delivered successful multi-platform social campaigns for a range of clients, who all had different goals, from reach to high sales at low cost-per-actions.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2008 - 2010"
+            date="2021 - 2022"
             iconStyle={{ background: '#EC625F', color: '#fff' }}
             // icon={<WorkIcon />}
           >
-            <h3 className="vertical-timeline-element-title">Web Designer</h3>
-            <h4 className="vertical-timeline-element-subtitle">Los Angeles, CA</h4>
-            <p>
-              3
+            <h3 className="vertical-timeline-element-title">Code Institute Fullstack Bootcamp</h3>
+            <h4 className="vertical-timeline-element-subtitle">Merit Grade</h4>
+            <p style={{color: "#313131", textAlign: "center"}}>
+              I enrolled in a comprehensive year-long bootcamp and I undertook various projects that showcased my proficiency, including creating a quiz application, developing single page applications, and constructing fully functional eCommerce websites. Demonstrating my dedication and skill, these projects culminated in the achievement of a Merit grade.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2006 - 2008"
+            date="2021 - Present"
             iconStyle={{ background: '#EC625F', color: '#fff' }}
             // icon={<WorkIcon />}
           >
-            <h3 className="vertical-timeline-element-title">Web Designer</h3>
-            <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
-            <p>
-              4
+            <h3 className="vertical-timeline-element-title">Advertising Addressable Manager</h3>
+            <h4 className="vertical-timeline-element-subtitle">Clients: Eurostar, Audible, Morrisons, Nationwide, Danone</h4>
+            <p style={{color: "#313131", textAlign: "center"}}>
+              I currently build display banner ads using HTML, CSS, JavaScript and Greensock and recreate the desired ad look by incorporating the designs from Figma, Photoshop and Adobe After Effects.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -82,8 +91,8 @@ const About = () => {
             // icon={<WorkIcon />}
           >
             <h3 className="vertical-timeline-element-title" style={{color: "white"}}>Junior Fullstack Engineer</h3>
-            <p>
-              Creative Direction, User Experience, Visual Design, Project Management, Team Leading
+            <p style={{textAlign: "center"}}>
+              To be able to create front and back end applications that bring value to the end user and the stakeholders involved.
             </p>
           </VerticalTimelineElement>
           {/* <VerticalTimelineElement

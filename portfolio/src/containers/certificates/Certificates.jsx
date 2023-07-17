@@ -25,7 +25,11 @@ const Certificates = () => {
           </div>
           <div className='cert-info-pos'>
             <h3>CodeCademy</h3>
-            <p>To develop my knowledge and practice my fullstack skills. I enrolled in this 8 month course to be more confident in both front and back end.</p>
+            <p>To develop my knowledge and practice my fullstack skills. I enrolled in this 8 month course to be more confident in both front and back end.
+            <br />
+            <br />
+            I have updated my skills and knowledge during this course and this has helped me build the projects below that showcase the use of latest released software.
+            </p>
             <button type='button'><a href='#' target='_blank'>View Certificate</a></button>
           </div>
         </div>
@@ -35,7 +39,7 @@ const Certificates = () => {
           </div>
           <div className='cert-info-pos'>
             <h3>LinkedIn</h3>
-            <p>In order to grasp the basics of QA testing, I enrolled in multiple courses to enhance my understanding and expand my expertise.<br/><br/>After successfully finishing the coursework, I embarked on creating my own projects as a means of applying the knowledge I had gained.<br/><br/>See my QA testing projects below.</p>
+            <p>In order to grasp the basics of QA testing, I enrolled in multiple courses to enhance my understanding and expand my expertise.<br /><br />I now can automate and manual test my projects using Selenium and other QA software testing tools confidently.</p>
             <button type='button'><a href='/src/assets/Software-Testing-Certificate.pdf' target='_blank'>View Certificate</a></button>
           </div>
         </div>

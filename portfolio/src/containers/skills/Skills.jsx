@@ -6,7 +6,7 @@ import { SiCss3 } from "react-icons/si";
 import { SiAdobephotoshop } from "react-icons/si";
 import { SiReact } from "react-icons/si";
 import { SiTailwindcss } from "react-icons/si";
-import { SiSelenium } from "react-icons/si";
+import { SiGreensock } from "react-icons/si";
 import { SiFigma } from "react-icons/si";
 import { SiGithub } from "react-icons/si";
 import { SiVisualstudio } from "react-icons/si";
@@ -35,7 +35,7 @@ const Skills = () => {
           <div className='grid-item'><Techstack image={<SiPython />} name="Python"/></div>
           <div className='grid-item'><Techstack image={<SiReact />} name="ReactJs"/></div>
           <div className='grid-item'><Techstack image={<SiRedux />} name="Redux"/></div>
-          <div className='grid-item'><Techstack image={<SiSelenium />} name="Selenium"/></div>
+          <div className='grid-item'><Techstack image={<SiGreensock />} name="Greensock"/></div>
           <div className='grid-item'><Techstack image={<SiMysql />} name="SQL"/></div>
           <div className='grid-item'><Techstack image={<SiFigma />} name="Figma"/></div>
           <div className='grid-item'><Techstack image={<SiGithub />} name="GitHub"/></div>
