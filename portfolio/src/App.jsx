@@ -1,11 +1,13 @@
 import React from 'react';
 import { Footer, Intro, Navbar, Projects, Skills, About, Certificates } from './containers'
 import './App.css';
+import ScrollToTop from './pages/ScrollToTop'
 
 function App() {
 
   return (
     <>
+      <ScrollToTop />
       <div >
         <div>
           <Navbar />

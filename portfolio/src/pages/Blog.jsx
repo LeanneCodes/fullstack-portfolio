@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri'
 import { Link } from "react-router-dom";
 import '../containers/navbar/navbar.css'
-import './selenium.css'
+import './Blog.css'
 import Cards from '../components/cards/Cards';
 import { Footer } from '../containers';
 import ScrollToTop from './ScrollToTop';
@@ -14,7 +14,7 @@ const Menu = () => (
     </>
 )
 
-const Selenium = () => {
+const Blog = () => {
 
     const [toggleMenu, setToggleMenu] = useState(false);
 
@@ -46,7 +46,7 @@ const Selenium = () => {
                 </div>
             </div>
             <div className='project-page'>
-                <h1>Selenium Project</h1>
+                <h1>Oyster & Beyond Blog</h1>
                 <div className='project-review'></div>
             </div>
             <div>
@@ -55,20 +55,20 @@ const Selenium = () => {
                     <div className='projects-card'>
                     <Cards
                         img={ noImage }
-                        name="Project name 2"
+                        name="The Coil Lounge"
                         tech="tech used"
                         summary="description"
                     />
-                    <Link to="/jira" style={{color: 'white', display: 'flex', justifyContent: 'center', textAlign: 'center'}}>View Jira Project</Link>
+                    <Link to="/booking" style={{color: 'white', display: 'flex', justifyContent: 'center', textAlign: 'center'}}>View Booking Project</Link>
                     </div>
                     <div className='projects-card'>
                     <Cards
                         img={ noImage }
-                        name="Project name 3"
+                        name="Spellbound"
                         tech="tech used"
                         summary="description"
                     />
-                    <Link to="/postman" style={{color: 'white', display: 'flex', justifyContent: 'center', textAlign: 'center'}}>View Postman Project</Link>
+                    <Link to="/store" style={{color: 'white', display: 'flex', justifyContent: 'center', textAlign: 'center'}}>View eCommerce Project</Link>
                     </div>
                     <div className='projects-card'>
                     <Cards
@@ -77,7 +77,7 @@ const Selenium = () => {
                         tech="tech used"
                         summary="description"
                     />
-                    <Link to="/appium" style={{color: 'white', display: 'flex', justifyContent: 'center', textAlign: 'center'}}>View Appium Project</Link>
+                    <Link to="/quiz" style={{color: 'white', display: 'flex', justifyContent: 'center', textAlign: 'center'}}>View Quiz Project</Link>
                     </div>
                 </div>
             </div>
@@ -87,4 +87,4 @@ const Selenium = () => {
     )
 }
 
-export default Selenium;
+export default Blog;

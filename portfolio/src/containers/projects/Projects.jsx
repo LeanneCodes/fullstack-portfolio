@@ -12,29 +12,29 @@ const Projects = () => {
         <div className='projects-card'>
           <Cards
             img={ noImage }
-            name="Project name 1"
+            name="Oyster & Beyond"
             tech="tech used"
             summary="description"
           />
-          <Link to="/selenium" style={{color: 'white', display: 'flex', justifyContent: 'center', textAlign: 'center'}}>View Selenium Project</Link>
+          <Link to="/blog" style={{color: 'white', display: 'flex', justifyContent: 'center', textAlign: 'center'}}>View Blog Project</Link>
         </div>
         <div className='projects-card'>
           <Cards
             img={ noImage }
-            name="Project name 2"
+            name="The Coil Lounge"
             tech="tech used"
             summary="description"
           />
-          <Link to="/jira" style={{color: 'white', display: 'flex', justifyContent: 'center', textAlign: 'center'}}>View Jira Project</Link>
+          <Link to="/booking" style={{color: 'white', display: 'flex', justifyContent: 'center', textAlign: 'center'}}>View Booking Project</Link>
         </div>
         <div className='projects-card'>
           <Cards
             img={ noImage }
-            name="Project name 3"
+            name="Spellbound"
             tech="tech used"
             summary="description"
           />
-          <Link to="/postman" style={{color: 'white', display: 'flex', justifyContent: 'center', textAlign: 'center'}}>View Postman Project</Link>
+          <Link to="/store" style={{color: 'white', display: 'flex', justifyContent: 'center', textAlign: 'center'}}>View eCommerce Project</Link>
         </div>
         <div className='projects-card'>
           <Cards
@@ -43,7 +43,7 @@ const Projects = () => {
             tech="tech used"
             summary="description"
           />
-          <Link to="/appium" style={{color: 'white', display: 'flex', justifyContent: 'center', textAlign: 'center'}}>View Appium Project</Link>
+          <Link to="/quiz" style={{color: 'white', display: 'flex', justifyContent: 'center', textAlign: 'center'}}>View Quiz Project</Link>
         </div>
       </div>
     </div>

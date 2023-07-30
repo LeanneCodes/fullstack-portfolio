@@ -14,23 +14,18 @@ const About = () => {
         <div className='text-pos'>
           <h1>About me</h1>
           <p className='text-style'>
-            I pursued a Marketing with Advertising degree at university, inspired by my love for the TV show "Mad Men" and a strong desire to immerse myself in the industry. Following my studies, I entered the Advertising field, where I successfully executed multi-million pound campaigns for renowned brands such as Samsung, L'Oréal, and Compare the Market.
+            I studied Marketing with Advertising at university, fueled by my love for "Mad Men" and a passion for the industry. After graduating, I worked in Advertising, executing successful multi-million pound campaigns for clients like Samsung, L'Oréal, and Compare the Market.
             <br />
             <br />
-            During my time in advertising, I specialised in Addressable, focusing on building display ad banners for esteemed clients like Eurostar and Audible. My role was around transforming creative agency designs into functional live ads. I integrated Figma and Photoshop files into VS Code, where I wrote code and leveraged tools like Greensock, to merge all elements together. This process allowed me to bring captivating ad experiences to life while ensuring optimal functionality and visual appeal.
+            During my career, I specialised in Addressable advertising, building display ad banners for clients like Eurostar and Audible. I discovered that I love transforming creative designs into live ads using HTML, CSS, JavaScript and Greensock. Making them stand out with functionality and visual appeal.
             <br />
             <br />
-            Now, I am seeking opportunities as a full-time fullstack engineer, aspiring to collaborate with open-minded professionals from whom I can learn and grow.
-            <br/>
-            <br />
-            I am excited to embark on this next chapter, where I can utilise my skills and contribute to innovative projects while continuously expanding my knowledge in the ever-evolving world of technology.
+            Now, I'm eager to transition into a full-time fullstack engineer role, collaborating with open-minded professionals and continuously learning and growing in this exciting tech world. I'm excited to bring my skills to innovative projects and stay ahead in this ever-evolving industry.
           </p>
         </div>
       </div>
-      <br />
-      <br />
-      <div>
-        <h3>My Career Path and Goals</h3>
+      {/* <div>
+        <h3>My Career History and Goals</h3>
         <br />
         <br />
         <VerticalTimeline>
@@ -83,12 +78,8 @@ const About = () => {
               To be able to create front and back end applications that bring value to the end user and the stakeholders involved.
             </p>
           </VerticalTimelineElement>
-          {/* <VerticalTimelineElement
-            iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
-            // icon={<StarIcon />}
-          /> */}
         </VerticalTimeline>
-      </div>
+      </div> */}
     </div>
   )
 }

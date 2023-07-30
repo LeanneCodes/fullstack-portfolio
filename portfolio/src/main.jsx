@@ -10,10 +10,10 @@ import {
   Link,
 } from "react-router-dom";
 import './index.css'
-import Selenium from './pages/Selenium.jsx';
-import Jira from './pages/Jira.jsx'
-import Postman from './pages/Postman.jsx'
-import Appium from './pages/Jira.jsx'
+import Blog from './pages/Blog.jsx';
+import Booking from './pages/Booking.jsx';
+import Quiz from './pages/Quiz.jsx';
+import Store from './pages/Store.jsx';
 
 const router = createBrowserRouter([
   {
@@ -21,20 +21,20 @@ const router = createBrowserRouter([
     element: <App />
   },
   {
-    path: "selenium",
-    element: <Selenium />
+    path: "blog",
+    element: <Blog />
   },
   {
-    path: "jira",
-    element: <Jira />
+    path: "booking",
+    element: <Booking />
   },
   {
-    path: "postman",
-    element: <Postman />
+    path: "store",
+    element: <Store />
   },
   {
-    path: "appium",
-    element: <Appium />
+    path: "quiz",
+    element: <Quiz />
   }
 ]);
 
