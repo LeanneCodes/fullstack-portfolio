@@ -3,20 +3,15 @@ import Techstack from '../../components/Techstack/Techstack'
 import { SiJavascript } from "react-icons/si";
 import { SiHtml5 } from "react-icons/si";
 import { SiCss3 } from "react-icons/si";
-import { SiAdobephotoshop } from "react-icons/si";
 import { SiReact } from "react-icons/si";
 import { SiTailwindcss } from "react-icons/si";
 import { SiGreensock } from "react-icons/si";
 import { SiFigma } from "react-icons/si";
 import { SiGithub } from "react-icons/si";
 import { SiVisualstudio } from "react-icons/si";
-import { SiPython } from "react-icons/si";
-import { SiJirasoftware } from "react-icons/si";
-import { SiPostman } from "react-icons/si";
-import { SiApachejmeter } from "react-icons/si";
-import { SiJunit5 } from "react-icons/si";
 import { SiMysql } from "react-icons/si";
 import { SiRedux } from "react-icons/si";
+import { TbBrandNextjs } from "react-icons/tb";
 import './skills.css'
 
 const Skills = () => {
@@ -32,7 +27,7 @@ const Skills = () => {
           <div className='grid-item'><Techstack image={<SiCss3 />} name="CSS3"/></div>
           <div className='grid-item'><Techstack image={<SiTailwindcss />} name="Tailwind"/></div>
           <div className='grid-item'><Techstack image={<SiJavascript />} name="JavaScript"/></div>
-          <div className='grid-item'><Techstack image={<SiPython />} name="Python"/></div>
+          <div className='grid-item'><Techstack image={<TbBrandNextjs />} name="NextJs"/></div>
           <div className='grid-item'><Techstack image={<SiReact />} name="ReactJs"/></div>
           <div className='grid-item'><Techstack image={<SiRedux />} name="Redux"/></div>
           <div className='grid-item'><Techstack image={<SiGreensock />} name="Greensock"/></div>

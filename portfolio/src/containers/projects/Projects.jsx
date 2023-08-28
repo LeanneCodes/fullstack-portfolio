@@ -14,19 +14,19 @@ const Projects = () => {
           <Cards
             img={ Oyster }
             name="Oyster & Beyond"
-            tech="React NextJs SCSS Tailwind JavaScript Hygraph CMS"
-            summary="A travel blog that uses a carousel to showcase my feature posts. A side category bar that groups my posts by destination. And an option for users to leave comments."
+            tech="HTML, ReactJs, NextJs, Tailwind, JavaScript, Hygraph CMS"
+            summary="A travel blog that uses a carousel to showcase my feature posts. A side category bar that groups my posts by destination, and an option for users to leave comments."
           />
           <Link to="/blog" style={{color: 'white', display: 'flex', justifyContent: 'center', textAlign: 'center'}}>View Blog Project</Link>
         </div>
         <div className='projects-card'>
           <Cards
             img={ noImage }
-            name="The Coil Lounge"
-            tech="tech used"
-            summary="description"
+            name="Spanish Language Quiz"
+            tech="HTML, CSS, JavaScript"
+            summary="A beginner quiz aimed for kids to understand more spanish vocabulary from popular topics. There are 8 categories to be quizzed on and an opportunity to save your score on a highscore list."
           />
-          <Link to="/booking" style={{color: 'white', display: 'flex', justifyContent: 'center', textAlign: 'center'}}>View Booking Project</Link>
+          <Link to="/booking" style={{color: 'white', display: 'flex', justifyContent: 'center', textAlign: 'center'}}>View Quiz Project</Link>
         </div>
         <div className='projects-card'>
           <Cards

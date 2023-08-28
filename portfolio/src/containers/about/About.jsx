@@ -17,10 +17,10 @@ const About = () => {
             I studied Marketing with Advertising at university, fueled by my love for "Mad Men" and a passion for the industry. After graduating, I worked in Advertising, executing successful multi-million pound campaigns for clients like Samsung, L'Oréal, and Compare the Market.
             <br />
             <br />
-            During my career, I specialised in Addressable advertising, building display ad banners for clients like Eurostar and Audible. I discovered that I love transforming creative designs into live ads using HTML, CSS, JavaScript and Greensock. Making them stand out with functionality and visual appeal.
+            During my career, I specialised in Addressable advertising, building display ad banners for clients like Eurostar, Audible and Lego. I discovered that I love transforming creative designs into live ads using HTML, CSS, JavaScript and Greensock; making them stand out with functionality and visual appeal.
             <br />
             <br />
-            Now, I'm eager to transition into a full-time fullstack engineer role, collaborating with open-minded professionals and continuously learning and growing in this exciting tech world. I'm excited to bring my skills to innovative projects and stay ahead in this ever-evolving industry.
+            Having found this passion, I've been creating projects to grasp essential real-world concepts. Now, I'm enthusiastic about shifting into a Frontend developer role, working with experts, fostering ongoing learning in this dynamic tech realm. I'm eager to contribute skills to groundbreaking projects and stay at the forefront of this ever-evolving industry.
           </p>
         </div>
       </div>

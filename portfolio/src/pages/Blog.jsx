@@ -83,11 +83,11 @@ const Blog = () => {
                     <div className='projects-card'>
                     <Cards
                         img={ noImage }
-                        name="The Coil Lounge"
-                        tech="tech used"
-                        summary="description"
+                        name="Spanish Language Quiz"
+                        tech="HTML, CSS, JavaScript"
+                        summary="A beginner quiz aimed for kids to understand more spanish vocabulary from popular topics. There are 8 categories to be quizzed on and an opportunity to save your score on a highscore list."
                     />
-                    <Link to="/booking" style={{color: 'white', display: 'flex', justifyContent: 'center', textAlign: 'center'}}>View Booking Project</Link>
+                    <Link to="/booking" style={{color: 'white', display: 'flex', justifyContent: 'center', textAlign: 'center'}}>View Quiz Project</Link>
                     </div>
                     <div className='projects-card'>
                     <Cards

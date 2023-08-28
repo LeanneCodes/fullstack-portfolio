@@ -9,7 +9,7 @@ const Footer = () => {
     <div className='footer-container'>
       <div className='footer'>
         <h3>Leanne Goldsmith</h3>
-        <h4>Junior Fullstack Engineer</h4>
+        <h4>Junior Frontend Developer</h4>
         <div className='ext-link'>
           <a href="https://github.com/LeanneCodes" target='_blank'><FooterIcons icon={ <SiGithub/>}/></a>
           <a href="https://www.linkedin.com/in/leanne-goldsmith-98b965a5/" target='_blank'><FooterIcons icon={ <SiLinkedin/>}/></a>
