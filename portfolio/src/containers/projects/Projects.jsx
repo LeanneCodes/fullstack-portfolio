@@ -3,6 +3,7 @@ import './projects.css'
 import Cards from '../../components/cards/Cards'
 import { Link } from "react-router-dom";
 import noImage from "../../assets/no-image.jpeg"
+import Oyster from "../../assets/oyster-and-beyond-project-cover.png"
 
 const Projects = () => {
   return (
@@ -11,10 +12,10 @@ const Projects = () => {
       <div className='projects'>
         <div className='projects-card'>
           <Cards
-            img={ noImage }
+            img={ Oyster }
             name="Oyster & Beyond"
-            tech="tech used"
-            summary="description"
+            tech="React NextJs SCSS Tailwind JavaScript Hygraph CMS"
+            summary="A travel blog that uses a carousel to showcase my feature posts. A side category bar that groups my posts by destination. And an option for users to leave comments."
           />
           <Link to="/blog" style={{color: 'white', display: 'flex', justifyContent: 'center', textAlign: 'center'}}>View Blog Project</Link>
         </div>

@@ -2,7 +2,58 @@
     margin-top: 180px;
 }
 .project-review {
-    background-color: var(--text-color);
+    background-color: white;
     min-height: 80vh;
     margin: 3rem 15rem 5rem;
+}
+
+.project-review p {
+    color: black;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+}
+
+.project-detail {
+    display: flex;
+    margin-bottom: 3rem;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+.project-detail p {
+    margin: 0 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.project-detail img {
+    width: 40%;
+    border: 2px solid black;
+    margin: 0 5rem;
+}
+
+.project-links {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    margin: auto;
+    padding: 0 3rem 3rem;
+}
+
+.project-links button {
+    width: 200px;
+    padding: 10px 20px;
+    margin: 10px;
+    border: 2px solid #EC625F;
+    border-radius: 10px;
+    background-color: #EC625F;
+    cursor: pointer;
+}
+
+.project-links a {
+    color: white;
 }

@@ -7,6 +7,7 @@ import Cards from '../components/cards/Cards';
 import { Footer } from '../containers';
 import ScrollToTop from './ScrollToTop';
 import noImage from '../assets/no-image.jpeg';
+import mockup from '../assets/oyster-mockup.jpg';
 
 const Menu = () => (
     <>
@@ -47,7 +48,34 @@ const Blog = () => {
             </div>
             <div className='project-page'>
                 <h1>Oyster & Beyond Blog</h1>
-                <div className='project-review'></div>
+                <div className='project-review'>
+                    <div>
+                        <img src={ mockup } alt="oyster and beyond device mockup" style={{width: '50%', display:'flex', margin:'auto'}}/>
+                    </div>
+                    <div>
+                        <p style={{marginBottom:'3rem'}}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum aliquam possimus ut culpa odit soluta reiciendis odio officia sapiente! Maxime facere consequatur omnis perspiciatis velit odit nam, vitae voluptatem eveniet!</p>
+                        <div className='project-detail'>
+                            <img src={ noImage } alt="no image available" />
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa nulla dolorem vel perferendis repellendus optio, veritatis et. Nihil voluptatibus ut veritatis quidem praesentium soluta dolorum consequatur aliquam cumque perspiciatis! Neque.</p>
+                        </div>
+                        <div className='project-detail reverse'>
+                            <img src={ noImage } alt="no image available" />
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa nulla dolorem vel perferendis repellendus optio, veritatis et. Nihil voluptatibus ut veritatis quidem praesentium soluta dolorum consequatur aliquam cumque perspiciatis! Neque.</p>
+                        </div>
+                        <div className='project-detail'>
+                            <img src={ noImage } alt="no image available" />
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa nulla dolorem vel perferendis repellendus optio, veritatis et. Nihil voluptatibus ut veritatis quidem praesentium soluta dolorum consequatur aliquam cumque perspiciatis! Neque.</p>
+                        </div>
+                        <div className='project-detail reverse'>
+                            <img src={ noImage } alt="no image available" />
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa nulla dolorem vel perferendis repellendus optio, veritatis et. Nihil voluptatibus ut veritatis quidem praesentium soluta dolorum consequatur aliquam cumque perspiciatis! Neque.</p>
+                        </div>
+                        <div className='project-links'>
+                            <button type='button'><a href='https://github.com/LeanneCodes/oyster-and-beyond-blog/tree/main' target='_blank'>GitHub</a></button>
+                            <button type='button'><a href='https://oyster-and-beyond-blog-57i61jxfb-leannecodes.vercel.app/' target='_blank'>Live Project</a></button>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div>
                 <h3>View Other Projects</h3>
