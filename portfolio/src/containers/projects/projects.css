@@ -1,5 +1,6 @@
 .projects-container {
     min-height: 50vh;
+    background-color: var(--tan);
 }
 
 .projects {
@@ -10,11 +11,14 @@
 }
 
 .projects-card {
-    background-color: #282419;
+    background-color: white;
     margin-top: 1rem;
     width: 30%;
     padding: 14px;
     margin: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: var(--bg-2);
 }
 
 .project-link {
@@ -24,12 +28,12 @@
 }
 
 .project-link a {
-    color: white;
+    color: var(--purple);
     text-decoration: underline;
 }
 
 .project-link a:hover {
-    color: var(--text-highlight);
+    color: var(--sage);
 }
 
 @media screen and (max-width: 768px) {

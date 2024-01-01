@@ -1,11 +1,13 @@
 .project-image img {
     border-radius: 5px;
     width: 100%;
+    border: 1px solid var(--lightGrey);
 }
 
 .project-content {
-    height: 200px;
+    height: 250px;
     text-align: center;
+    display: flex;
 }
 
 .project-info {
@@ -17,13 +19,13 @@
 .project-info h4 {
     font-size: 1.5rem;
     margin-top: 1rem;
-    color: white;
+    color: var(--bg-2);
 }
 
 .project-info h5 {
     font-size: 1rem;
     margin-top: 1rem;
-    color: white;
+    color: var(--bg-2);
 }
 
 .project-info p {
@@ -34,7 +36,7 @@
     background-color: transparent;
     border: none;
     font-size: 1rem;
-    color: white;
+    color: var(--bg-2);
     font-weight: 700;
     cursor: pointer;
 }

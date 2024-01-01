@@ -3,8 +3,9 @@
     flex-direction: row-reverse;
     justify-content: space-evenly;
     min-height: 50vh;
-    background-color: rgba(236, 98, 95, 1);
-    padding-bottom: 0.5rem;
+    /* background-color: rgba(236, 98, 95, 1); */
+    background-color: var(--sage);
+    padding-bottom: 1rem;
 }
 
 .skills-header {
@@ -12,6 +13,10 @@
     flex-direction: column;
     justify-content: center;
     width: 30%;
+}
+
+.skills-header h1 {
+    color: white;
 }
 
 .skills-header h2, .skills-header span {

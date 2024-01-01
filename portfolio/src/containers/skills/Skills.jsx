@@ -23,8 +23,8 @@ const Skills = () => {
   return (
     <div className='skills-container' id='skills'>
       <div className='skills-header'>
-        <h1 style={{color: 'white'}}>My Skills</h1>
-        <p style={{ marginTop: '1rem', color: 'white', textAlign: 'center' }}>Current techstack that I engage with most frequently, either through my current role or via personal projects.</p>
+        <h1>My Skills</h1>
+        <p style={{ marginTop: '1rem', textAlign: 'center' }}>Current techstack that I engage with most frequently, either through my current role or via personal projects.</p>
       </div>
       <div className='skills-flex'>
         <div className='skills-Techstack grid-container'>

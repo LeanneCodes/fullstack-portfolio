@@ -1,5 +1,5 @@
 .intro-container {
-    background-color: var(--bg);
+    background-color: var(--tan);
     min-height: 50vh;
     display: flex;
     flex-direction: column;
