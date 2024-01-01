@@ -4,10 +4,7 @@ import * as React from "react";
 import { createRoot } from "react-dom/client";
 import {
   createBrowserRouter,
-  RouterProvider,
-  BrowserRouter,
-  Route,
-  Link,
+  RouterProvider
 } from "react-router-dom";
 import './index.css'
 
