@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri'
-import { Link } from "react-router-dom";
 import './navbar.css'
 
 const Menu = () => (
@@ -10,7 +9,7 @@ const Menu = () => (
     <p><a href='#skills'>Skills</a></p>
     <p><a href='#experience'>Experience</a></p>
     <p><a href='#projects'>Projects</a></p>
-    <p><a href='cv.pdf' target='_blank'>CV</a></p>
+    <p><a href='https://docs.google.com/document/d/1Nt3uCrIML4-v-uIG6yciaNUGDrvdKN2kt5WZR9tNfLA/edit?usp=sharing' target='_blank'>CV</a></p>
   </>
 )
 
@@ -21,14 +20,14 @@ const Navbar = () => {
     <div className='navbar-container' id='navbar'>
       <div className='navbar-links'>
         <div className='navbar-link-container'>
-        <h3><Link to="/#home" style={{ color: "var(--header-color)", textDecoration: "none;" }}>Junior Frontend Portfolio</Link></h3>
+        <h3 className='title'>Junior Frontend Portfolio</h3>
           <div className='navlinks'>
             <Menu />
           </div>
         </div>
       </div>
       <div className='navbar-toggle'>
-      <h3><Link to="/#home" style={{ color: "var(--header-color)", textDecoration: "none;" }}>Junior Frontend Portfolio</Link></h3>
+      <h3 className='title'>Junior Frontend Portfolio</h3>
         {toggleMenu
           ? <RiCloseLine size={27} onClick={() => setToggleMenu(false)} />
           : <RiMenu3Line size={27} onClick={() => setToggleMenu(true)} />

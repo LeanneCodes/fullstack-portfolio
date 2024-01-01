@@ -5,6 +5,11 @@
     z-index: 100;
 }
 
+.title {
+    color: var(--header-color);
+    text-decoration: none;
+}
+
 .navbar-container {
     display: flex;
     justify-content: space-between;
