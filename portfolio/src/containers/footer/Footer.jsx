@@ -12,7 +12,7 @@ const Footer = () => {
         <h4>Junior Frontend Developer</h4>
         <div className='ext-link'>
           <a href="https://github.com/LeanneCodes" target='_blank'><FooterIcons icon={ <SiGithub/>}/></a>
-          <a href="https://www.linkedin.com/in/leanne-goldsmith-98b965a5/" target='_blank'><FooterIcons icon={ <SiLinkedin/>}/></a>
+          <a href="https://www.linkedin.com/in/leanne-m-goldsmith/" target='_blank'><FooterIcons icon={ <SiLinkedin/>}/></a>
         </div>
       </div>
     </div>

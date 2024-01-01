@@ -10,7 +10,7 @@
 }
 
 .profile-pic {
-    width: 63%;
+    width: 50%;
 }
 
 .img-style {
@@ -26,6 +26,11 @@
 
 .text-pos {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 @media screen and (max-width: 1440px) {

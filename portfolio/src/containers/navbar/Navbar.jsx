@@ -8,7 +8,7 @@ const Menu = () => (
     <p><a href='#home'>Home</a></p>
     <p><a href='#about'>About Me</a></p>
     <p><a href='#skills'>Skills</a></p>
-    <p><a href='#certificates'>Certificates</a></p>
+    <p><a href='#experience'>Experience</a></p>
     <p><a href='#projects'>Projects</a></p>
     <p><a href='cv.pdf' target='_blank'>CV</a></p>
   </>
@@ -21,14 +21,14 @@ const Navbar = () => {
     <div className='navbar-container' id='navbar'>
       <div className='navbar-links'>
         <div className='navbar-link-container'>
-        <h3><Link to="/#home" style={{ color: "var(--header-color)", textDecoration: "none;" }}>Junior Frontend Dev Portfolio</Link></h3>
+        <h3><Link to="/#home" style={{ color: "var(--header-color)", textDecoration: "none;" }}>Junior Frontend Portfolio</Link></h3>
           <div className='navlinks'>
             <Menu />
           </div>
         </div>
       </div>
       <div className='navbar-toggle'>
-      <h3><Link to="/#home" style={{ color: "var(--header-color)", textDecoration: "none;" }}>Junior Frontend Dev Portfolio</Link></h3>
+      <h3><Link to="/#home" style={{ color: "var(--header-color)", textDecoration: "none;" }}>Junior Frontend Portfolio</Link></h3>
         {toggleMenu
           ? <RiCloseLine size={27} onClick={() => setToggleMenu(false)} />
           : <RiMenu3Line size={27} onClick={() => setToggleMenu(true)} />

@@ -12,6 +12,11 @@ import { SiVisualstudio } from "react-icons/si";
 import { SiMysql } from "react-icons/si";
 import { SiRedux } from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
+import { FaBootstrap } from "react-icons/fa";
+import { SiAdobephotoshop } from "react-icons/si";
+import { SiJquery } from "react-icons/si";
+import { FaNodeJs } from "react-icons/fa";
+import { TbApi } from "react-icons/tb";
 import './skills.css'
 
 const Skills = () => {
@@ -26,12 +31,15 @@ const Skills = () => {
           <div className='grid-item'><Techstack image={<SiHtml5 />} name="HTML5"/></div>
           <div className='grid-item'><Techstack image={<SiCss3 />} name="CSS3"/></div>
           <div className='grid-item'><Techstack image={<SiTailwindcss />} name="Tailwind"/></div>
+          <div className='grid-item'><Techstack image={<FaBootstrap />} name="Bootstrap"/></div>
           <div className='grid-item'><Techstack image={<SiJavascript />} name="JavaScript"/></div>
-          <div className='grid-item'><Techstack image={<TbBrandNextjs />} name="NextJs"/></div>
+          <div className='grid-item'><Techstack image={<SiJquery />} name="jQuery"/></div>
+          <div className='grid-item'><Techstack image={<FaNodeJs />} name="NodeJS"/></div>
+          <div className='grid-item'><Techstack image={<TbApi />} name="API"/></div>
           <div className='grid-item'><Techstack image={<SiReact />} name="ReactJs"/></div>
-          <div className='grid-item'><Techstack image={<SiRedux />} name="Redux"/></div>
+          <div className='grid-item'><Techstack image={<TbBrandNextjs />} name="NextJs"/></div>
           <div className='grid-item'><Techstack image={<SiGreensock />} name="Greensock"/></div>
-          <div className='grid-item'><Techstack image={<SiMysql />} name="SQL"/></div>
+          <div className='grid-item'><Techstack image={<SiAdobephotoshop />} name="Photoshop"/></div>
           <div className='grid-item'><Techstack image={<SiFigma />} name="Figma"/></div>
           <div className='grid-item'><Techstack image={<SiGithub />} name="GitHub"/></div>
           <div className='grid-item'><Techstack image={<SiVisualstudio />} name="VS Code"/></div>

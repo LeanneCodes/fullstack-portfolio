@@ -4,6 +4,7 @@ import Cards from '../../components/cards/Cards'
 import { Link } from "react-router-dom";
 import noImage from "../../assets/no-image.jpeg"
 import Oyster from "../../assets/oyster-and-beyond-project-cover.png"
+import VaultKey from '../../assets/vaultkey-project-cover.png';
 
 const Projects = () => {
   return (
@@ -13,29 +14,38 @@ const Projects = () => {
         <div className='projects-card'>
           <Cards
             img={ Oyster }
-            name="Oyster & Beyond"
-            tech="HTML, ReactJs, NextJs, Tailwind, JavaScript, Hygraph CMS"
-            summary="A travel blog that uses a carousel to showcase my feature posts. A side category bar that groups my posts by destination, and an option for users to leave comments."
+            name="Oyster & Beyond Blog"
+            tech="HTML, NextJs, Tailwind, JavaScript, Hygraph CMS"
+            summary="A travel blog that showcases a variety of destinations and an option for users to leave comments."
           />
-          <Link to="/blog" style={{color: 'white', display: 'flex', justifyContent: 'center', textAlign: 'center'}}>View Blog Project</Link>
+          <div className='project-link'>
+            <a href="https://oyster-and-beyond-blog.vercel.app/" target="_blank">View Project</a>
+            <a href="https://github.com/LeanneCodes/oyster-and-beyond-blog" target="_blank">View GitHub</a>
+          </div>
         </div>
         <div className='projects-card'>
           <Cards
-            img={ noImage }
-            name="Spanish Language Quiz"
+            img={ VaultKey }
+            name="VaultKey Password Generator"
             tech="HTML, CSS, JavaScript"
-            summary="A beginner quiz aimed for kids to understand more spanish vocabulary from popular topics. There are 8 categories to be quizzed on and an opportunity to save your score on a highscore list."
+            summary="A password generator that intakes user input and forms a password between 8 and 128 characters."
           />
-          <Link to="/booking" style={{color: 'white', display: 'flex', justifyContent: 'center', textAlign: 'center'}}>View Quiz Project</Link>
+          <div className='project-link'>
+            <a href="https://leannecodes.github.io/vault-key-generator/" target="_blank">View Project</a>
+            <a href="https://github.com/LeanneCodes/vault-key-generator" target="_blank">View GitHub</a>
+          </div>
         </div>
         <div className='projects-card'>
           <Cards
             img={ noImage }
-            name="Spellbound"
-            tech="tech used"
-            summary="description"
+            name="Spellbound Book API"
+            tech="HTML, CSS, ReactJs, NodeJs, Bootstrap"
+            summary="A website that displays the top selling books and authors using the New York Times API, with the option to favourite and unfavourite books."
           />
-          <Link to="/store" style={{color: 'white', display: 'flex', justifyContent: 'center', textAlign: 'center'}}>View eCommerce Project</Link>
+          <div className='project-link'>
+            <a href="#" target="_blank">View Project</a>
+            <a href="#" target="_blank">View GitHub</a>
+          </div>
         </div>
         <div className='projects-card'>
           <Cards
@@ -44,7 +54,10 @@ const Projects = () => {
             tech="tech used"
             summary="description"
           />
-          <Link to="/quiz" style={{color: 'white', display: 'flex', justifyContent: 'center', textAlign: 'center'}}>View Quiz Project</Link>
+          <div className='project-link'>
+            <a href="#" target="_blank">View Project</a>
+            <a href="#" target="_blank">View GitHub</a>
+          </div>
         </div>
       </div>
     </div>

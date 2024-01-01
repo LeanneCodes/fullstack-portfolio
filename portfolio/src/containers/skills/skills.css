@@ -4,6 +4,7 @@
     justify-content: space-evenly;
     min-height: 50vh;
     background-color: rgba(236, 98, 95, 1);
+    padding-bottom: 0.5rem;
 }
 
 .skills-header {
