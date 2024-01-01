@@ -1,7 +1,6 @@
 import React from 'react'
 import './projects.css'
 import Cards from '../../components/cards/Cards'
-import { Link } from "react-router-dom";
 import noImage from "../../assets/no-image.jpeg"
 import Oyster from "../../assets/oyster-and-beyond-project-cover.png"
 import VaultKey from '../../assets/vaultkey-project-cover.png';

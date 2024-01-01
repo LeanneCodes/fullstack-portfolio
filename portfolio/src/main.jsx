@@ -10,10 +10,6 @@ import {
   Link,
 } from "react-router-dom";
 import './index.css'
-import Blog from './pages/Blog.jsx';
-import Booking from './pages/Booking.jsx';
-import Quiz from './pages/Quiz.jsx';
-import Store from './pages/Store.jsx';
 
 const router = createBrowserRouter([
   {
