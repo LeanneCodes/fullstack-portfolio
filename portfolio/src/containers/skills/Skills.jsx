@@ -1,5 +1,5 @@
 import React from 'react'
-import Techstack from '../../components/Techstack/Techstack'
+import Techstack from '../../components/techstack/Techstack';
 import { SiJavascript } from "react-icons/si";
 import { SiHtml5 } from "react-icons/si";
 import { SiCss3 } from "react-icons/si";
