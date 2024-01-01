@@ -52,6 +52,14 @@
     text-align: center;
 }
 
+.cert-info-pos button a {
+    text-decoration: underline;
+}
+
+.cert-info-pos button a:hover {
+    color: var(--sage);
+}
+
 @media screen and (max-width: 1920px) {
     .container {
         padding: 2rem;
@@ -71,8 +79,8 @@
 }
 
 @media screen and (max-width: 425px) {
-    .container {
-        padding: 3rem 0;
+    .cert-container {
+        padding: 1rem !important;
     }
 
     .cert-card {

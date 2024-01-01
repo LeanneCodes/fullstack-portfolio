@@ -29,7 +29,7 @@
 
 @media screen and (max-width: 768px) {
     .intro-container {
-        padding: 0 50px;
+        padding: 2rem;
     }
 }
 

@@ -10,7 +10,7 @@ const About = () => {
           <img src={leanne} alt='Leanne' className='profile-pic'/>
         </div>
         <div className='text-pos'>
-          <h1>About me</h1>
+          <h1>About Me</h1>
           <p className='text-style'>
           During my career, I specialised in Addressable Advertising, building display ad banners for clients such as, Eurostar, Audible and Legoland. I discovered that I love transforming Figma and Photoshop designs into live ads using HTML, CSS, JavaScript and Greensock.
           <br/>

@@ -13,6 +13,10 @@
     margin-bottom: 0;
 }
 
+.ext-link a:hover {
+    color: var(--sage);
+}
+
 .footer h4 {
     margin-bottom: 1rem;
 }
